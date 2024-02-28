@@ -6,5 +6,5 @@ The main code “simulation_code.py” is written so that multiple simulations i
 
 To reproduce the results from the study:
 1. Modify getFileLocation in “helperfunctions.py” to set the location where data files will be stored and retrieved form.
-2. Run simulations using input files provided in the “inputs” folder. The files are named such that all files with ***_VaxX (where *** is a descriptor and X is a number 1-4) correspond to the same parameters. Allow the previous vaccine simulation to finish before running the next vaccine simulation (about 5 hours per simulation). A sample script file “flu.sh” is provided. Modify the partition, mail-user, array, and input text file as appropriate. 
+2. Run simulations using input files provided in the “inputs” folder. The files are named such that all files titled "***_VaxX.txt" (where *** is a descriptor and X is a number 1-4) correspond to the same parameters. Allow the previous vaccine simulation to finish before running the next vaccine simulation (about 5 hours per simulation). A sample script file “flu.sh” is provided. Modify the partition, mail-user, array, and input text file as appropriate. 
 3. The output pickle data files can be analyzed using the JupyterNotebook “simulation_results.ipynb”.
