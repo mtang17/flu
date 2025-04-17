@@ -1,6 +1,6 @@
 # Sequential immunization with influenza vaccines broadens antibody responses - computational simulations
 
-This repository contains original code created for the study titled “Repeated vaccination with homologous influenza hemagglutinin broadens human antibody responses to unmatched flu viruses” by Deng, Tang, Chakraborty, Lingwood (2024). 
+This repository contains original code created for the study titled “Repeated vaccination with homologous influenza hemagglutinin broadens human antibody responses to unmatched flu viruses” by Deng, Tang, Chakraborty, Lingwood (2025). 
 
 The main code “simulation_code.py” is written so that multiple simulations in parallel can be submitted to a cluster using Slurm job arrays. The input for the simulations are read from each line of a text file. The text files provided in the “inputs” folder contain a header line followed by simulation inputs with one line per simulation. The output is saved as a pickle data file (.pkl) in the location specified in “helperfunctions.py”.
 
