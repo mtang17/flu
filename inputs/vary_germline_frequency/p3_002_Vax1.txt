@@ -1,4 +1,4 @@
-vax	E1h	dE12	dE13	p2	p3	masking	C0	w1	w2	q12	q13	q23	memGC	outP	outPC	rho				early	tax	first	last
+vax	E1h	dE12	dE13	p2	p3	masking	C0	w1	w2	q12	q13	q23	memGC	outP	outPC	rho				early	tmax	first	last
 1	7	0.4	0.8	0.18	0.02	0	0.008	0	0.5	0	0	0	0	0.05	0.1	[[0.95, 0.4], [0.4, 0.95]]	0	360	1	200
 1	7	0.4	0.8	0.18	0.02	0	0.008	0	0.5	0	0	0	0	0.05	0.1	[[0.95, 0.4], [0.4, 0.95]]	0	360	201	400
 1	7	0.4	0.8	0.18	0.02	0	0.008	0	0.5	0	0	0	0	0.05	0.1	[[0.95, 0.4], [0.4, 0.95]]	0	360	401	600
